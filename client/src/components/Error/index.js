@@ -7,7 +7,7 @@ class Error extends Component {
     return (
       <div>
         <Login />
-        <h3>User not found!</h3>
+        <h4 id="errorMassage">User not found!</h4>
       </div>
     );
   }

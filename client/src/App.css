@@ -7,15 +7,13 @@
   height: 80px;
 }
 
-/* .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-} */
+.App-header {
+  padding: 10px 0 20px;
+}
 
 .App-title {
   font-size: 1.5em;
+  color: #b4e18b;
 }
 
 .App-intro {
@@ -25,4 +23,38 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+body {
+  background-color: #323232;
+  color: white;
+}
+
+input {
+  background-color: #323232;
+  color: #ddd;
+  border-color: #b4e18b;
+}
+
+a:link, a:visited {
+    color: #b4e18b;
+    text-decoration: none;
+    /* cursor: auto; */
+}
+
+a:hover {
+    color: #9dca74;
+}
+
+#errorMassage {
+  color: #ff1919;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h3 {
+  margin-top: 2em;
 }

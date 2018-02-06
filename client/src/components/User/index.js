@@ -32,7 +32,7 @@ class User extends Component {
       return this.renderError();
     }
     return (
-      <div>Loading user...</div>
+      <div>Loading...</div>
     );
   }
 

@@ -32,7 +32,7 @@ class Login extends Component {
           <input type="text" id="userId" placeholder="Enter user ID" />
           <button type="submit">Login</button>
         </form>
-        <h3 id="errorMassage"></h3>
+        <h4 id="errorMassage"></h4>
       </div>
     );
   }
